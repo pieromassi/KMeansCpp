@@ -1,0 +1,11 @@
+# Build artifacts
+build/
+cmake-build-*/
+
+# Compiled files
+*.exe
+*.o
+*.obj
+
+# Editor settings
+.vscode/
