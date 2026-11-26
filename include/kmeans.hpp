@@ -1,9 +1,8 @@
 #pragma once
 
 #include <vector>
-#include <cstddef>
 
-float square_distance(const std::vector<float> &a, const std::vector<float> &b);
-//std::vector<float> point_picker(const std::vector<std::vector<float>> &points);
-std::vector<std::vector<float>> centroid_initializer(std::size_t k, 
-            const std::vector<std::vector<float>> &points);
+double square_distance(const std::vector<double> &a, const std::vector<double> &b);
+//std::vector<double> point_picker(const std::vector<std::vector<double>> &points);
+std::vector<std::vector<double>> centroid_initializer(int k, 
+            const std::vector<std::vector<double>> &points);
